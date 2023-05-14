@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
-    <!--CSS Styles -->
+    <!-- CSS Styles -->
     <link rel="stylesheet" href="assets/styles.css" />
 
     <!-- Favicons -->
@@ -31,8 +33,11 @@
   </head>
 
   <body>
+    <!-- Header section -->
+    <script id="header" src="js/header.js"></script>
+
     <!-- Navbar -->
-    <script id="navbar" src="navigation.js"></script>
+    <script id="navbar" src="js/navigation.js"></script>
 
     <!-- Hero Section -->
     <section class="hero" id="about">
@@ -57,13 +62,13 @@
     <section class="more-about">
       <h2>More About Me</h2>
       <p>
-        Hello
+        I am currently enrolled in level 3 of a 5-year Software Engineering and Management co-op program.
       </p>
       <p>
-        World
+        Business management, leadership, communications, and customer relations skills from previous work experience.
       </p>
       <p>
-        Hello!!!
+        Developed excellent teamwork, communication, and time management skills from business courses.
       </p>
     </section>
 
@@ -77,16 +82,15 @@
           <img src="https://img.icons8.com/color/512/css3.png" alt="css" loading="lazy" class="icon icon-card"/>
           <img src="https://img.icons8.com/color/512/javascript--v1.png" alt="javascript" loading="lazy" class="icon icon-card"/>
           <img src="https://img.icons8.com/color/512/python--v1.png" alt="python" loading="lazy" class="icon icon-card"/>
-          <img src="https://img.icons8.com/nolan/512/react-native.png" alt="react native" loading="lazy" class="icon icon-card"/>
         </div>
 
         <div class="second-set animate__animated animate__pulse">
+          <img src="https://img.icons8.com/nolan/512/react-native.png" alt="react native" loading="lazy" class="icon icon-card"/>
           <img src="https://img.icons8.com/color/512/git.png" alt="git" loading="lazy" class="icon icon-card"/>
           <img src="https://img.icons8.com/ios/512/sql.png" alt="sql" loading="lazy" class="icon icon-card"/>
           <img src="https://img.icons8.com/fluency/512/matlab.png" alt="matlab" loading="lazy" class="icon icon-card"/>
           <img src="https://img.icons8.com/ios/512/java-coffee-cup-logo--v1.png" alt="java" loading="lazy" class="icon icon-card"/>
         </div>
-
       </div>
     </section>
 
@@ -140,6 +144,7 @@
           <a href="#" target="_blank" class="project-link">Check it Out</a>
         </div>
       </div>
+      <button class="button1" id="button1">View More</button>
     </section>
 
     <!-- Contact section -->
@@ -194,34 +199,16 @@
     </section>
 
     <!-- Social Media - Fixed to the right -->
-    <div class="socials">
-      <a href="https://www.linkedin.com/in/angelazeng11/" target="_blank"
-        ><img
-          src="assets/icons/icons8-linkedin-circled.gif"
-          alt="Linkedin"
-          loading="lazy"
-          class="socicon"
-      /></a>
-      <a href="https://github.com/zenga8" target="_blank"
-        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
-      /></a>
-    </div>
+    <script id="socialmedia" src="js/socialmedia.js"></script>
 
     <!-- Scroll to top -->
-    <i class="scroll-up" id="scroll-up"
-      ><img
-        src="https://img.icons8.com/ios/40/FF8FF9/circled-up.png"
-        class="up arrow"
-        alt=""
-    /></i>
+    <script id="scrolltotop" src="js/scrolltotop.js"></script>
 
     <!-- Footer section -->
-    <footer>
-      <p class="copy">&copy; Copyright 2023 </p>
-    </footer>
+    <script id="footer" src="js/footer.js"></script>
 
     <!-- Website scripts -->
-    <script src="assets/js/app.js"></script>
+    <script src="js/app.js"></script>
 
     <!-- Ion icons scripts -->
     <script

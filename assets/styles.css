@@ -10,8 +10,9 @@
     --bolder-font: 900;
     --nav-bg-color: #fff9fe;
     --bg-colour: #ffffff;
-    --primary-color: #fa92fac0;
-    --secondary-color: #ff35b2;
+    --colour1: #fa92fac0;
+    --colour2: #ff46b8;
+    --colour3: #ff00b3;
     --primary-shadow: #8b8eaf;
     --secondary-shadow: #a17a69;
     --bottom-margin: 0.5rem;
@@ -30,16 +31,22 @@
   
   a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--colour1);
   }
   
   a:hover {
-    color: var(--secondary-color);
+    color: var(--colour2);
   }
   
   body {
     font-family: var(--font-family);
   }
+
+/* Scrolling text */
+.scrollingtext {
+  background-color:rgba(255, 186, 235, 0.178);
+  color: var(--colour1)
+}
 
 /* Navigation bar */
 nav {
@@ -56,19 +63,19 @@ nav {
   }
 
   nav h1 { /* Heading 1 */
-    color: var(--primary-color);
+    color: var(--colour1);
     font-family: 'Playfair Display', Arial;
     font-style: italic;
     font-weight: 600;
   }
   
   nav a { /* Hyperlink */
-    color: var(--primary-color);
+    color: var(--colour1);
     transition: var(--transition);
   }
   nav a:hover {
-    color: var(--secondary-color);
-    border-bottom: 2px solid var(--secondary-color);
+    color: var(--colour2);
+    border-bottom: 2px solid var(--colour2);
   }
   
   nav ul { /* Unordered list */
@@ -81,7 +88,7 @@ nav {
   }
 
   .burger-menu {
-    color: var(--primary-color);
+    color: var(--colour1);
     font-size: 2rem;
     border: 0;
     background-color: transparent;
@@ -94,14 +101,14 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2.5rem;
+    gap: 2.0rem;
     max-width: 68.75rem;
     margin: auto;
   }
 
   .hero img {
     height: 37.5rem;
-    width: 37.5rem;
+    width: 45.5rem;
   }
   
   .bio {
@@ -214,6 +221,15 @@ nav {
     margin: 10px;
   }
 
+  .button1 {
+    border-style: double;
+    border-color: var(--colour3);
+    border-radius: 2px;
+    float:right;
+    background-color: transparent;
+    color: var(--colour3);
+  }
+
   /* Contact */
   .contact {
     margin-top: 2rem;
@@ -235,7 +251,7 @@ nav {
   .contact-form-container label {
     line-height: 2.7em;
     font-weight: var(--bold-font);
-    color: var(--primary-color);
+    color: var(--colour1);
   }
   
   .contact-form-container textarea {
@@ -249,14 +265,14 @@ nav {
     padding-bottom: 10px;
     border-radius: 5px;
     border: none;
-    border: 2px outset var(--primary-color);
+    border: 2px outset var(--colour1);
     font-size: 0.875rem;
     outline: none;
   }
 
   .input-field::placeholder {
     padding: 0.5rem;
-    color: var(--primary-color);
+    color: var(--colour1);
   }
 
   .submit-btn {
@@ -264,16 +280,17 @@ nav {
     padding: 10px;
     margin: 10px 0;
     background-color: #fff;
-    border: 2px solid var(--primary-color);
+    border: 2px solid var(--colour1);
     border-radius: 5px;
     font-size: 1rem;
     font-weight: var(--bold-font);
     transition: var(--transition);
+    color: var(--colour1);
   }
 
   .submit-btn:hover {
-    background-color: var(--primary-color);
-    border: 2px solid var(--primary-color);
+    background-color: var(--colour1);
+    border: 2px solid var(--colour1);
     cursor: pointer;
   }
 
