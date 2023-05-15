@@ -230,6 +230,12 @@ nav {
     color: var(--colour3);
   }
 
+  .button1:hover {
+    background-color: var(--colour1);
+    transition: var(--transition);
+    cursor: pointer;
+  }
+
   /* Contact */
   .contact {
     margin-top: 2rem;
