@@ -116,8 +116,13 @@ nav {
   }
 
   .hero img {
-    height: 37.5rem;
-    width: 45.5rem;
+    height: 60%;
+    width: 60%;
+  }
+
+  .hero h2 {
+    color: var(--colour1);
+    text-align: center;
   }
   
   .bio {
@@ -131,33 +136,70 @@ nav {
     margin-bottom: var(--bottom-margin);
   }
   
-  .bio p {
+  .bio a {
     line-height: var(--line-height);
-    padding: 0.3rem 0;
+    padding: 0.3rem;
+    color: var(--colour2);
+    border-style: dotted;
+    border-color: var(--colour2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25%;
   }
 
-  /* More about */
-.more-about {
+  .bio a:hover {
+    border-color: var(--colour1);
+    transition: var(--transition);
+  }
+
+  /* About me */
+  .image0 {
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+  }
+
+  .more-about {
     background-color: var(--bg-color);
     padding: 1rem 6rem;
+  }
+
+  .more-about2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  .more-about img {
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    align-self: center;
   }
   
   .more-about h2 {
     margin-bottom: var(--bottom-margin);
     text-align: center;
+    color: var(--colour1);
   }
   
   .more-about p {
     line-height: var(--line-height);
     padding: 0.4rem;
+    color: var(--colour2);
   }
 
   /* Skills */
-.skills {
+  .skills {
     max-width: 78.75rem; /* Max width the icons can be placed */
     margin: auto;
     text-align: center;
     margin-top: 2.5rem;
+  }
+
+  .skills h2 {
+    color: var(--colour1);
   }
   
   .skill-header {
@@ -182,7 +224,7 @@ nav {
   }
 
   /* Projects */
-  .projects {
+  .homeprojects {
     background-color: var(--bg-color);
     padding: 32px 0;
     margin-top: 2rem;
@@ -202,6 +244,7 @@ nav {
   .projects-title {
     text-align: center;
     margin-bottom: 1rem;
+    color: var(--colour1);
   }
   
   .project-container {
@@ -237,6 +280,7 @@ nav {
     float:right;
     background-color: transparent;
     color: var(--colour3);
+    padding: 0 5px;
   }
 
   .button1:hover {
@@ -331,6 +375,10 @@ nav {
     margin: 2rem 0 0;
   }
 
+  .footer p {
+    color: var(--colour1);
+  }
+
   /* Scroll Up */
   .scroll-up {
     position: fixed;
@@ -379,6 +427,19 @@ nav {
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+  }
+
+  .icon_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon1 {
+    border-radius: 3px;
+    padding: 5px;
+    margin: 3px;
+    width: 5%;
   }
 
   @media screen and (max-width: 720px) {

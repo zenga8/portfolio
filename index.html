@@ -43,162 +43,26 @@
 
     <!-- Hero Section -->
     <section class="hero" id="hero">
-      <img
-        src="assets/images/hero-portrait.png"
-        alt="me"
-        loading="lazy"
-        class="hero-img"
-      />
+      <img src="assets/images/hero-portrait.png" alt="me" loading="lazy" class="hero-img"/>
       <div class="bio animate__animated animate__shakeX">
-        <h2 class="bio-title">About Me</h2>
-        <p class="bio-text">
-          Hi there! I'm Angela, and I am pursuing an undergraduate degree in Software Engineering and Management.
-          I am super passionate about all things related to technology and business.
-          I have a vested interest in programming as well as marketing, and I encourage you to look at my recent
-          projects! If you would like to contact me, please fill in the form in the Contact tab. Thanks!
-        </p>
+        <h2>Software Engineering and Management</h2>
+        <a href="assets\files\Resume.pdf">
+          Resume
+        </a>
       </div>
     </section>
 
-    <!-- More about -->
-    <section class="more-about">
-      <h2>More About Me</h2>
-      <p>
-        I am currently enrolled in level 3 of a 5-year Software Engineering and Management co-op program.
-      </p>
-      <p>
-        Business management, leadership, communications, and customer relations skills from previous work experience.
-      </p>
-      <p>
-        Developed excellent teamwork, communication, and time management skills from business courses.
-      </p>
-    </section>
+    <!-- About -->
+    <script id="about" src="js/about.js"></script>
 
     <!-- Skills section -->
-    <section class="skills" id="skills">
-      <h2 class="skill-header">My Skills</h2>
-
-      <div class="skills-wrapper">
-        <div class="first-set animate__animated animate__pulse">
-          <img src="https://img.icons8.com/color/512/html-5--v1.png" alt="html" loading="lazy" class="icon icon-card"/>
-          <img src="https://img.icons8.com/color/512/css3.png" alt="css" loading="lazy" class="icon icon-card"/>
-          <img src="https://img.icons8.com/color/512/javascript--v1.png" alt="javascript" loading="lazy" class="icon icon-card"/>
-          <img src="https://img.icons8.com/color/512/python--v1.png" alt="python" loading="lazy" class="icon icon-card"/>
-        </div>
-
-        <div class="second-set animate__animated animate__pulse">
-          <img src="https://img.icons8.com/nolan/512/react-native.png" alt="react native" loading="lazy" class="icon icon-card"/>
-          <img src="https://img.icons8.com/color/512/git.png" alt="git" loading="lazy" class="icon icon-card"/>
-          <img src="https://img.icons8.com/ios/512/sql.png" alt="sql" loading="lazy" class="icon icon-card"/>
-          <img src="https://img.icons8.com/fluency/512/matlab.png" alt="matlab" loading="lazy" class="icon icon-card"/>
-          <img src="https://img.icons8.com/ios/512/java-coffee-cup-logo--v1.png" alt="java" loading="lazy" class="icon icon-card"/>
-        </div>
-      </div>
-    </section>
+    <script id="skills" src="js/skills.js"></script>
 
     <!-- Projects section -->
-    <section class="projects" id="projects">
-      <h2 class="projects-title">Recent Projects</h2>
-      <div class="projects-container">
-        <div class="project-container project-card">
-          <img
-            src="assets/images/expenseTracker.png"
-            alt="expense-tracker"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Expense Tracker</h3>
-          <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
-        <div class="project-container project-card">
-          <img
-            src="assets/images/netflixClone.png"
-            alt="netflic-clone"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Netflix Clone</h3>
-          <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
-        <div class="project-container project-card">
-          <img
-            src="assets/images/greenyEarth.png"
-            alt="greeny-earth"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Greeny Earth</h3>
-          <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
-      </div>
-      <button class="button1" id="button1" href="projects.html">View More</button>
-    </section>
+    <script id="homeprojects" src="js/homeprojects.js"></script>
 
     <!-- Contact section -->
-    <section class="contact" id="contact">
-      <h2>Get In Touch With Me</h2>
-      <div class="contact-form-container">
-        <div class="contact-form">
-          <form action="https://formspree.io/f/mwkjzplv" method="POST">
-            <div class="form-control">
-              <label for="name">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="sender-name"
-                placeholder="Enter Your Name"
-                class="input-field"
-                required
-              />
-            </div>
-            <div class="form-control">
-              <label for="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="sender-email"
-                placeholder="Enter Your Email"
-                class="input-field"
-                required
-              />
-            </div>
-            <div class="form-control">
-              <label for="message">Message</label>
-              <textarea
-                id="message"
-                cols="60"
-                rows="10"
-                placeholder="Enter Your Message"
-                name="message"
-                class="input-field"
-                required
-              ></textarea>
-            </div>
-            <input
-              type="submit"
-              value="Submit"
-              id="submit-btn"
-              class="submit-btn"
-            />
-          </form>
-        </div>
-      </div>
-    </section>
+    <script id="contact" src="js/contact.js"></script>
 
     <!-- Social Media - Fixed to the right -->
     <script id="socialmedia" src="js/socialmedia.js"></script>
