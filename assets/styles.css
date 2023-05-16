@@ -3,22 +3,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,600&display=swap');
 
 /* Variables */
+* {
+  font-family: 'Roboto';
+}
+
 :root {
-    --font-family: 'Roboto', Arial;
-    --normal-font: 400;
-    --bold-font: 700;
-    --bolder-font: 900;
-    --nav-bg-color: #fff9fe;
-    --bg-colour: #ffffff;
-    --colour1: #fa92fac0;
-    --colour2: #ff46b8;
-    --colour3: #ff00b3;
-    --primary-shadow: #8b8eaf;
-    --secondary-shadow: #a17a69;
-    --bottom-margin: 0.5rem;
-    --bottom-margin-2: 1rem;
-    --line-height: 1.7rem;
-    --transition: 0.3s;
+  --font-family: 'Roboto', Arial;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --nav-bg-color: #fff9fe;
+  --bg-colour: #ffffff;
+  --colour1: #fa92fac0;
+  --colour2: #ff46b8;
+  --colour3: #ff00b3;
+  --primary-shadow: #8b8eaf;
+  --secondary-shadow: #a17a69;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
   }
 
   html {
@@ -188,6 +192,7 @@ nav {
     line-height: var(--line-height);
     padding: 0.4rem;
     color: var(--colour2);
+    max-width: 50rem;
   }
 
   /* Skills */
