@@ -483,8 +483,8 @@ nav {
     }
 
     .hero img {
-        height: 50%;
-        width: 50%;
+        height: 100%;
+        width: 100%;
     }
 
     .bio {
@@ -515,18 +515,18 @@ nav {
     }
 
     .project-container {
-        width: 20.875rem;
+        width: 20rem;
     }
 
     .contact-form-container {
-        max-width: 23.75rem;
+        max-width: 19rem;
     }
   }
 
   @media screen and (max-width: 420px) {
     .hero img {
-      height: 50%;
-      width: 50%;
+      height: 100%;
+      width: 100%;
     }
   
     .bio {
