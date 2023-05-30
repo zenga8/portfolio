@@ -15,8 +15,8 @@
   --nav-bg-color: #fff9fe;
   --bg-colour: #ffffff;
   --colour1: #fa92fac0;
-  --colour2: #ff46b8;
-  --colour3: #ff00b3;
+  --colour2: #ff4fbc;
+  --colour3: #ff009d;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
   --bottom-margin: 0.5rem;
@@ -91,7 +91,7 @@ nav {
     border-bottom: 2px solid var(--colour2);
   }
   
-  nav ul { /* Unordered list */
+  nav ul {
     display: flex;
     gap: 1.9rem;
   }
@@ -114,7 +114,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2.0rem;
+    gap: 2.0em;
     max-width: 90%;
     margin: auto;
   }
@@ -391,20 +391,15 @@ nav {
     bottom: 3%;
     cursor: pointer;
   }
-  
-  .up-arrow {
-    width: 3rem;
-    height: 3rem;
-  }
 
   /* Projects Page */
-  .container1 {
+  .projects_list {
     display: flex;
     flex-direction: column;
     gap: 2rem;
   }
 
-  .container2 {
+  .project_card {
     background-color: rgb(255, 244, 246);
     width: 90%;
     display: block;
@@ -415,23 +410,30 @@ nav {
     padding: 10px;
   }
 
-  .container3 {
+  .desc_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-  .desc {
+  .desc_list {
     display: flex;
-    color: var(--colour2);
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    color: var(--colour2);
+    list-style-type:circle
   }
 
-  .image1 {
+  .desc_bullet {
+    padding: 0.5rem;
+  }
+
+  .project_img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 30%;
+    border: 1px solid var(--colour2);
+    border-radius: 3em;
   }
 
   .icon_center {
