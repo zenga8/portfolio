@@ -7,3 +7,4 @@ This repository contains my initial portfolio website, built with HTML, CSS, and
 - **Purpose**: Developed as a personal portfolio to showcase my projects and skills.
 - **Technologies**: HTML, CSS, JavaScript
 - **Features**: Basic navigation, project showcase section, contact form, responsive design elements.
+- **Live Demo**: [View the demo here](https://zenga8.github.io/index.html)
